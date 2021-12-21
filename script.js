@@ -119,10 +119,10 @@ $(document).ready(function () {
       $.ajax({
           type: "POST",
           dataType: "json",
-          url: "https://formcarry.com/s/KkqfQ3I23z",
+          url: "https://formcarry.com/s/Ger4-7rnaWH",
           data: data,
           success: function (response) {
-              if ((response.status == "success") && (grecaptcha.getResponse())) {
+              if (response.status == "success") {
                   alert("Форма отправлена");
                   clear();
               } else {

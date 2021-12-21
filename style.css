@@ -1684,97 +1684,6 @@ footer {
   
 }
 
-#popup-form {
-  background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%) no-repeat bottom right,#040613;
-  max-width: 520px;
-  width: 90%;
-  padding: 20px;
-  border-radius: 8px;
-  line-height: 1.5;
-}
-
-#popup-form form {
-  max-width: 100%;
-  width: 480px;
-  display: flex;
-  flex-direction: column;
-  max-height: 900px;
-}
-
-#popup-form input, #popup-form textarea {
-  width: 480px;
-  max-width: 100%;
-  margin-bottom: 7px; 
-  background: transparent;
-  border: 1px solid rgba(256,256,256,.3);
-  border-radius: 5px;
-  line-height: 1.2;
-  font-weight: 500;
-  font-size: 14px;
-  padding: 26px 24px;
-  color: #fff;
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-}
-
-#popup-form input {
-  height: 54px;
-  box-shadow: none;
-}
-
-#popup-form textarea {
-  height: 134px;
-}
-
-#popup-form .g-recaptcha {
-  margin-bottom: 10px;
-}
-
-#popup-form input[valid='false'] {
-  border-color: rgba(256,50,50,.4);
-}
-
-#popup-form input:focus, #popup-form textarea:focus, .chb-place:hover {
-  border-color: #f14d34;
-  outline: 0;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #f44336;
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-}
-
-#popup-form input::placeholder, #popup-form textarea::placeholder {
-  color: #fff;
-  font-size: 14px;
-}
-
-#popup-form button {
-  background: #f14d34;
-  border: 2px solid #f14d34;
-  border-radius: 5px;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 20px;
-  outline: 0;
-  box-shadow: none;
-  margin: 0;
-  display: block;
-  width: 100%;
-  padding: 20px 14px;
-  transition: background 300ms;
-}
-
-#popup-form button:hover {
-  background: transparent;
-}
-
-#popup-form button:disabled {
-  opacity: 0.65;
-  cursor: not-allowed;
-}
-
-#popup-form button:disabled:hover {
-  background: #f14d34;
-}
 
 label.chb-block input[type='checkbox'] {
 	display: none;
@@ -1869,12 +1778,6 @@ label.chb-block div:after {
   
   #moving-overlay {
     bottom: 0;
-  }
-}
-
-@media only screen and (min-width: 601px) {
-  #popup-form {
-    width: 50%;
   }
 }
 
